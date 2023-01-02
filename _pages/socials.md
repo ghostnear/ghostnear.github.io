@@ -11,8 +11,8 @@ permalink: /socials/
         {% assign key = entry | first %}
         {% if sm[key].id %}
             <div class="socials-box">
-                <a href="{{ sm[key].href }}{{ sm[key].id }}" class="socials-link" title="{{ sm[key].title }}" target="_blank">
-                    <img src="/assets/icons/socials/{{ sm[key].icon-name }}" class="socials-icon">
+                <a href="{{ sm[key].href }}{{ sm[key].id }}" class="socials-link" title="{{ sm[key].title }} link." target="_blank">
+                    <img src="/assets/icons/socials/{{ sm[key].icon-name }}" class="socials-icon" alt="{{ sm[key].title }} icon.">
                     <h1 class="socials-title">
                         {{ sm[key].title }}
                     </h1>

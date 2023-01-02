@@ -42,3 +42,33 @@
     right: 0;
   }
 }
+
+.socials {
+  &-container {
+    margin: 0, auto;
+  }
+
+  &-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem !important;
+  }
+
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    margin: auto 0 !important;
+    margin-top: 0.66rem !important;
+    text-decoration: none !important;
+  }
+
+  &-icon {
+    margin: 0 !important;
+    margin-right: 0.75rem !important;
+  }
+}

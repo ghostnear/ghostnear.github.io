@@ -4,8 +4,21 @@ title: "Socials"
 permalink: /socials/
 ---
 
-{% highlight C %}
-/*
- *  TODO
- */
-{% endhighlight %}
+{% if site.data.social-media %}
+<div id="socials-container">
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <div class="socials-box">
+                <a href="{{ sm[key].href }}{{ sm[key].id }}" class="socials-link" title="{{ sm[key].title }}" target="_blank">
+                    <img src="/assets/icons/socials/{{ sm[key].icon-name }}" class="socials-icon">
+                    <h1 class="socials-title">
+                        {{ sm[key].title }}
+                    </h1>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,17 @@
+twitter:
+  id: 'ghostnear1841'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  icon-name: 'twitter.svg'
+
+kitsu:
+  id: 'ghostnear'
+  href: 'https://kitsu.io/users/'
+  title: 'Kitsu.io'
+  icon-name: 'kitsu.svg'
+
+anilist:
+  id: 'ghostnear'
+  href: 'https://anilist.co/user/'
+  title: 'Anilist.co'
+  icon-name: 'anilist.svg'

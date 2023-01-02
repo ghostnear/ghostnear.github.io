@@ -1,0 +1,36 @@
+# Site settings
+description:    "Minimal Jekyll theme for storytellers"
+url:            "https://ghostnear.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         GhostNear
+  url:          https://ghostnear.github.io
+  email:        ghostnear1841@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       6
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]

@@ -4,6 +4,12 @@ twitter:
   title: 'Twitter'
   icon-name: 'twitter.svg'
 
+steam:
+  id: 'ghostnear1841'
+  href: 'https://steamcommunity.com/id/'
+  title: 'Steam'
+  icon-name: 'steam.svg'
+
 kitsu:
   id: 'ghostnear'
   href: 'https://kitsu.io/users/'
@@ -15,3 +21,9 @@ anilist:
   href: 'https://anilist.co/user/'
   title: 'Anilist.co'
   icon-name: 'anilist.svg'
+
+osu:
+  id: '26598272'
+  href: 'https://osu.ppy.sh/users/'
+  title: 'Osu! (old)'
+  icon-name: 'osu.svg'

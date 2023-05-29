@@ -35,3 +35,7 @@ paginate:       6
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Compress info
+compress_html:
+  comments: ["<!-- ", " -->"]

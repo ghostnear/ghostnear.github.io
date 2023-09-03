@@ -25,5 +25,11 @@ anilist:
 osu:
   id: '26598272'
   href: 'https://osu.ppy.sh/users/'
-  title: 'Osu! (old)'
+  title: 'Osu!'
   icon-name: 'osu.svg'
+
+mastodon:
+  id: '@ghostnear'
+  href: 'https://mastodon.social/'
+  title: 'Mastodon'
+  icon-name: 'mastodon.svg'
